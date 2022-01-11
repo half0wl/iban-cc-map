@@ -15,7 +15,7 @@ object Extract {
   }
 
   def toCsv = {
-    val FILENAME = s"${LocalDateTime.now}-IBANCcMap.csv"
+    val FILENAME = s"csvs/${LocalDateTime.now}-IBANCcMap.csv"
     val outFile = new File(FILENAME)
     val writer = CSVWriter.open(outFile)
     // Header
