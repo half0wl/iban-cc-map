@@ -1,10 +1,23 @@
-# IBAN Country->Currency Code Map
+# IBAN Country Currency Codes
 
-https://www.iban.com/currency-codes in CSV format.
+⭐ https://www.iban.com/currency-codes in machine-readable formats.
 
-**Latest CSV**: [2022-01-11](https://github.com/half0wl/iban-cc-map/blob/main/csvs/2022-01-11T19:28:24.275357-IBANCcMap.csv)
+| Format | Date | Download Latest Version |
+| -- | -- | -- |
+| CSV | 2022-01-11 | [🔗 `2022-01-11T19%3A28%3A24.275357-IBANCcMap.csv`](https://raw.githubusercontent.com/half0wl/iban-cc-map/main/csvs/2022-01-11T19%3A28%3A24.275357-IBANCcMap.csv) |
+| JSON | Not supported yet | - |
+| YML | Not supported yet | - |
 
-## Sample:
+
+## Sample
+
+### CSV
+
+Headers:
+* `Country`
+* `Currency`
+* `CurrencyCode`
+* `CountryNumberCode`
 
 ```sh
 $ head -n 12 csvs/2022-01-11T19:28:24.275357-IBANCcMap.csv
